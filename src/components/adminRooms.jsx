@@ -92,7 +92,7 @@ const AdminRooms = ({ theArr, anotherArr }) => {
         <h2 className='pb-3' style={{ fontFamily: 'Montserrat', fontWeight: "bold", color: '#6699ff' }}>Current Featured Rooms</h2>
         <button onClick={()=>{
           buttonRef.current.click()
-          setobj({name:"",description01:"",description02:"",assets:[],services:[],newPackage:true})
+          setobj({name:"",price:0,description01:"",description02:"",assets:[],services:[],newPackage:true})
         }} className="btn btn-outline-primary">Add New Package</button>
 
 
@@ -119,7 +119,7 @@ const AdminRooms = ({ theArr, anotherArr }) => {
                   {/* <p class="card-text">{e.description01}</p> */}
                 <p class="card-text">{e.description01.slice(0,183)+" ..."}</p>
 
-                  {/* <p>From <h2 style={{ fontWeight: "bold", display: "contents" }} class="h4">Rs.7500</h2> +Tax</p> */}
+                  <p>From <h2 style={{ fontWeight: "bold", display: "contents" }} class="h4">Rs.{e.price}</h2> +Tax</p>
                   <div className='d-flex justify-content-start align-items-end' style={{ flex: 1 }}>
 
                     <span onClick={() => { filterData(e._id);buttonRef.current.click() }} style={{ backgroundColor: "#6699ff", color: "white" }} class="btn">Edit <i class="fa fa-long-arrow-right" aria-hidden="true"></i>                  </span>
@@ -182,6 +182,12 @@ const AdminRooms = ({ theArr, anotherArr }) => {
               <input
                 value={obj.name} onChange={(e) => setobj({ ...obj, name: e.target.value })} 
                 type="text" placeholder='Package Name' className="form-control my-2 " />
+
+              <h4>Package Price</h4>
+              <input
+                value={obj.price}
+                onChange={(e) => setobj({ ...obj, price: Number(e.target.value) })}
+                type="number" placeholder='Price' className="form-control my-2 " />
 
 
               <div className="d-flex justify-content-between w-100">

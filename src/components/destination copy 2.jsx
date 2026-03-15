@@ -85,7 +85,7 @@ const DestinationList = ({ theArr, anotherArr }) => {
                   </div>
                 </div>
                 <p class="card-text">{e.description01.slice(0,183)+" ..."}</p>
-                <p>From <h2 style={{ fontWeight: "bold", display: "contents" }} class="h4">{`Rs.${e.name=="Standard Package"?"6000":e.name=="Deluxe Package"?"6500":e.name=="Executive Package"?"7000":""}`}</h2>+Tax</p>
+                <p>From <h2 style={{ fontWeight: "bold", display: "contents" }} class="h4">Rs.{e.price}</h2>+Tax</p>
                 <div className='d-flex justify-content-start align-items-end' style={{ flex: 1 }}>
                   <Link  onClick={() => {window.scrollTo({ behavior: 'smooth', top: 0, left: 0,behavior:"instant" })}} to={`/room/${e._id}`}><span style={{ backgroundColor: "#6699ff", color: "white" }} class="btn">Book Now <i class="fa fa-long-arrow-right" aria-hidden="true"></i>                  </span></Link>
                 </div>

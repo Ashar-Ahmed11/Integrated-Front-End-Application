@@ -48,6 +48,7 @@ const AppState = (props) => {
     
     const [siteData, setSiteData] = useState({ title: "", email: "", contact: "", description: "", about: "" })
     const [allPackageData, setAllPackageData] = useState([])
+    // https://hotel-management-backend-application-three.vercel.app
     const getAppData = async () => {
 
         const url = "https://hotel-management-backend-application-three.vercel.app/api/coverImages/getImages"

@@ -113,7 +113,7 @@ const RoomPackage = ({ theArr }) => {
                                     <i class="fa fa-star rating-color"></i>
                                     <i class="fa fa-star"></i>
                                 </div>
-                <p>From <h2 style={{ fontWeight: "bold", display: "contents" }} class="h4">{`Rs.${anotherObj.name=="Standard Package"?"6000":anotherObj.name=="Deluxe Package"?"6500":anotherObj.name=="Executive Package"?"7000":""}`}</h2>+Tax</p>
+                <p>From <h2 style={{ fontWeight: "bold", display: "contents" }} class="h4">Rs.{anotherObj.price}</h2>+Tax</p>
                                 
                             </div>
                             <h2 style={{ color: '#6699ff' }} class="card-title h5 my-3 py-2">Overview</h2>
