@@ -33,7 +33,7 @@ const DestinationList = ({ theArr, anotherArr }) => {
           <Link onClick={() => window.scrollTo({ behavior: 'smooth', top: 0, left: 0 })} className="col-12 col-md-6 p-2 " to={`/regular-umrah`}>
             <div style={{ height: "300px" }} className="card shadow-none border-0 rounded-3">
 
-              <img className='position-relative w-100 h-100 rounded-3' style={{ objectFit: 'cover' }} src={`https://res.cloudinary.com/dextrzp2q/image/fetch/f_webp/q_60/https://e-safarnet.web.app${theArr[3].image}`} alt="" />
+              <img className='position-relative w-100 h-100 rounded-3' style={{ objectFit: 'cover' }} src={`https://res.cloudinary.com/jvwuwauz/image/fetch/f_webp/q_60/https://e-safarnet.web.app${theArr[3].image}`} alt="" />
 
               <div style={{ backgroundColor: "rgba(0,0,0,0.3)" }} className="rounded-3 position-absolute top-0 h-100 w-100">
                 <div className="position-absolute top-0 d-flex align-items-center justify-content-center h-100 w-100">
@@ -48,7 +48,7 @@ const DestinationList = ({ theArr, anotherArr }) => {
           <Link onClick={() => window.scrollTo({ behavior: 'smooth', top: 0, left: 0 })} className="col-12 col-md-6 p-2 " to={`/group-umrah`}>
             <div style={{ height: "300px" }} className="card shadow-none border-0 rounded-3">
 
-              <img className='position-relative w-100 h-100 rounded-3' style={{ objectFit: 'cover' }} src={`https://res.cloudinary.com/dextrzp2q/image/fetch/f_webp/q_60/https://e-safarnet.web.app${theArr[1].image}`} alt="" />
+              <img className='position-relative w-100 h-100 rounded-3' style={{ objectFit: 'cover' }} src={`https://res.cloudinary.com/jvwuwauz/image/fetch/f_webp/q_60/https://e-safarnet.web.app${theArr[1].image}`} alt="" />
 
               <div style={{ backgroundColor: "rgba(0,0,0,0.3)" }} className="rounded-3 position-absolute top-0 h-100 w-100">
                 <div className="position-absolute top-0 d-flex align-items-center justify-content-center h-100 w-100">
@@ -70,7 +70,7 @@ const DestinationList = ({ theArr, anotherArr }) => {
             <div class="card rounded-0 border-0 h-100 overflow-hidden shadow-none py-3"
             // style={{ borderColor: "#6699ff" }}
             >
-              <img src={`https://res.cloudinary.com/dextrzp2q/image/fetch/f_webp/q_60/${e.assets[0].url}`} class="card-img-top rounded-4" alt="..." />
+              <img src={`https://res.cloudinary.com/jvwuwauz/image/fetch/f_webp/q_60/${e.assets[0].url}`} class="card-img-top rounded-4" alt="..." />
 
               <div class="px-0 card-body d-flex flex-column">
                 <h2 style={{ fontWeight: "bold" }} class="h4">{e.name}</h2>

@@ -158,7 +158,7 @@ const AppState = (props) => {
         const cloudinary = async (file) => {
         // setEditorLoader(true)
         setSetImageLoader(true)
-        const url = "https://api.cloudinary.com/v1_1/dextrzp2q/image/upload"
+        const url = "https://api.cloudinary.com/v1_1/jvwuwauz/image/upload"
 
         // https://faithful-bass-yoke.cyclic.app/api/sendImg/
 
@@ -190,7 +190,7 @@ const AppState = (props) => {
     const roomImageCloudinary = async (file) => {
         // setEditorLoader(true)
         // setSetImageLoader(true)
-        const url = "https://api.cloudinary.com/v1_1/dextrzp2q/image/upload"
+        const url = "https://api.cloudinary.com/v1_1/jvwuwauz/image/upload"
         setSetImageLoader(true)
         // https://faithful-bass-yoke.cyclic.app/api/sendImg/
 
