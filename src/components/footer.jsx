@@ -40,7 +40,7 @@ export default function Footer({data}) {
                             <p class="copyright-text">Copyright &copy; 2024 All Rights Reserved by
                                 <Link to="/" onClick={()=>{window.scrollTo({ behavior: 'smooth', top: 0, left: 0,behavior:"instant" })}}> Crosswinds Islamabad</Link>.
                             </p>
-                            <p class="copyright-text">Site developed by: Metatech
+                            <p class="copyright-text">Site developed by: <a target='_blank' href='https://metatech-official.com/'>Website Development Company</a>
                                 
                             </p>
                         </div>
